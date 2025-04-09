@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.000830] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000918] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001040] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001172] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001223] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001284] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001330] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001395] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001454] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001565] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001616] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001703] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001771] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001817] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001864] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001909] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002028] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.002305] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002403] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002464] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002517] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.002640] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.099897] (-) TimerEvent: {}
+[0.200670] (-) TimerEvent: {}
+[0.301267] (-) TimerEvent: {}
+[0.401971] (-) TimerEvent: {}
+[0.502426] (-) TimerEvent: {}
+[0.602927] (-) TimerEvent: {}
+[0.670265] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/py_srvcli', 'build', '--build-base', '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/py_srvcli/build', 'install', '--record', '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/py_srvcli/install.log', '--install-scripts', '$base/lib/py_srvcli', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/caros/DEV/ROS_DEV/ros2_dev/src/py_srvcli', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'caros', 'LC_TIME': 'zh_CN.UTF-8', 'SSH_AGENT_PID': '2690', 'ROS_PACKAGE_PATH': '/opt/ros/foxy/share', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/Qt5.15.2/5.15.2/gcc_64/lib:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/local/cuda-12.1/lib64:/home/caros/anaconda3/lib', 'HOME': '/home/caros', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/caros/DEV/ROS_DEV/ros2_dev', 'TERM_PROGRAM_VERSION': '1.97.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2592', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/caros/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '106041', 'CPLUS_INCLUDE_PATH': '/usr/local/include/eigen3:/usr/local/include/eigen3:', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'caros', 'CONDA_ROOT': '/home/caros/anaconda3', 'JOURNAL_STREAM': '8:88305', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'caros', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/Qt5.15.2/5.15.2/gcc_64/bin:/usr/local/cuda-12.1/bin:/home/caros/.local/bin:/opt/ros/foxy/bin:/opt/Qt5.15.2/5.15.2/gcc_64/bin:/home/caros/anaconda3/condabin:/usr/local/cuda-12.1/bin:/home/caros/.cargo/bin:/home/caros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/caros/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/caros/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/caros-P920:@/tmp/.ICE-unix/2718,unix/caros-P920:/tmp/.ICE-unix/2718', 'INVOCATION_ID': '788f2d4e80a44afabfdba8b5c301f611', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/caros/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6020e3becee026ca.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c6c6f98a90.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/caros/anaconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'Unity', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/py_srvcli', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/caros/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/caros/DEV/ROS_DEV/ros2_dev/src/install/py_srvcli/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1'}, 'shell': False}
+[0.703127] (-) TimerEvent: {}
+[0.803681] (-) TimerEvent: {}
+[0.888495] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[0.889012] (py_srvcli) StdoutLine: {'line': b'creating ../build/py_srvcli/py_srvcli.egg-info\n'}
+[0.889240] (py_srvcli) StdoutLine: {'line': b'writing ../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[0.889571] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[0.889767] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[0.889940] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[0.890109] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[0.890324] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[0.903837] (-) TimerEvent: {}
+[0.923709] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[0.924199] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[0.924551] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[0.924778] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[0.924964] (py_srvcli) StdoutLine: {'line': b'creating /home/caros/DEV/ROS_DEV/ros2_dev/src/build/py_srvcli/build\n'}
+[0.925146] (py_srvcli) StdoutLine: {'line': b'creating /home/caros/DEV/ROS_DEV/ros2_dev/src/build/py_srvcli/build/lib\n'}
+[0.925325] (py_srvcli) StdoutLine: {'line': b'creating /home/caros/DEV/ROS_DEV/ros2_dev/src/build/py_srvcli/build/lib/py_srvcli\n'}
+[0.925634] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/service_member_function.py -> /home/caros/DEV/ROS_DEV/ros2_dev/src/build/py_srvcli/build/lib/py_srvcli\n'}
+[0.925866] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/__init__.py -> /home/caros/DEV/ROS_DEV/ros2_dev/src/build/py_srvcli/build/lib/py_srvcli\n'}
+[0.926035] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/client_member_function.py -> /home/caros/DEV/ROS_DEV/ros2_dev/src/build/py_srvcli/build/lib/py_srvcli\n'}
+[0.926205] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[0.926369] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[0.926600] (py_srvcli) StdoutLine: {'line': b'creating /home/caros/DEV/ROS_DEV/ros2_dev/src/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[0.926844] (py_srvcli) StdoutLine: {'line': b'copying /home/caros/DEV/ROS_DEV/ros2_dev/src/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/caros/DEV/ROS_DEV/ros2_dev/src/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[0.927112] (py_srvcli) StdoutLine: {'line': b'copying /home/caros/DEV/ROS_DEV/ros2_dev/src/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/caros/DEV/ROS_DEV/ros2_dev/src/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[0.927307] (py_srvcli) StdoutLine: {'line': b'copying /home/caros/DEV/ROS_DEV/ros2_dev/src/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/caros/DEV/ROS_DEV/ros2_dev/src/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[0.927545] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/caros/DEV/ROS_DEV/ros2_dev/src/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-38.pyc\n'}
+[0.928569] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/caros/DEV/ROS_DEV/ros2_dev/src/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/__init__.py to __init__.cpython-38.pyc\n'}
+[0.928804] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/caros/DEV/ROS_DEV/ros2_dev/src/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-38.pyc\n'}
+[0.929062] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[0.929301] (py_srvcli) StdoutLine: {'line': b'creating /home/caros/DEV/ROS_DEV/ros2_dev/src/install/py_srvcli/share/ament_index\n'}
+[0.929624] (py_srvcli) StdoutLine: {'line': b'creating /home/caros/DEV/ROS_DEV/ros2_dev/src/install/py_srvcli/share/ament_index/resource_index\n'}
+[0.929810] (py_srvcli) StdoutLine: {'line': b'creating /home/caros/DEV/ROS_DEV/ros2_dev/src/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[0.929977] (py_srvcli) StdoutLine: {'line': b'copying resource/py_srvcli -> /home/caros/DEV/ROS_DEV/ros2_dev/src/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[0.930142] (py_srvcli) StdoutLine: {'line': b'copying package.xml -> /home/caros/DEV/ROS_DEV/ros2_dev/src/install/py_srvcli/share/py_srvcli\n'}
+[0.930304] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.931417] (py_srvcli) StdoutLine: {'line': b'Copying ../build/py_srvcli/py_srvcli.egg-info to /home/caros/DEV/ROS_DEV/ros2_dev/src/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info\n'}
+[0.932030] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[0.948371] (py_srvcli) StdoutLine: {'line': b'Installing client script to /home/caros/DEV/ROS_DEV/ros2_dev/src/install/py_srvcli/lib/py_srvcli\n'}
+[0.948786] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/caros/DEV/ROS_DEV/ros2_dev/src/install/py_srvcli/lib/py_srvcli\n'}
+[0.948996] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/py_srvcli/install.log'\n"}
+[0.970505] (py_srvcli) CommandEnded: {'returncode': 0}
+[0.993847] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[0.995099] (-) EventReactorShutdown: {}

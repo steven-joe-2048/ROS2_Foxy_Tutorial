@@ -1,0 +1,99 @@
+[0.202s] Invoking command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/caros/DEV/ROS_DEV/ros2_dev/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer
+[3.436s] -- The C compiler identification is GNU 9.4.0
+[3.436s] -- The CXX compiler identification is GNU 9.4.0
+[3.436s] -- Detecting C compiler ABI info
+[3.436s] -- Detecting C compiler ABI info - done
+[3.437s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.437s] -- Detecting C compile features
+[3.437s] -- Detecting C compile features - done
+[3.437s] -- Detecting CXX compiler ABI info
+[3.437s] -- Detecting CXX compiler ABI info - done
+[3.437s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.437s] -- Detecting CXX compile features
+[3.437s] -- Detecting CXX compile features - done
+[3.437s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.437s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[3.438s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.438s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.438s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.438s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.438s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[3.438s] -- Found FastRTPS: /opt/ros/foxy/include
+[3.438s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.438s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.438s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.439s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.439s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.439s] -- Looking for pthread_create in pthreads
+[3.439s] -- Looking for pthread_create in pthreads - not found
+[3.439s] -- Looking for pthread_create in pthread
+[3.439s] -- Looking for pthread_create in pthread - found
+[3.439s] -- Found Threads: TRUE
+[3.439s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.439s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.440s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.440s] -- Configured cppcheck include dirs: 
+[3.440s] -- Configured cppcheck exclude dirs and/or files: 
+[3.440s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.440s] -- Configured cpplint exclude dirs and/or files: 
+[3.440s] -- Added test 'lint_cmake' to check CMake code style
+[3.440s] -- Added test 'uncrustify' to check C / C++ code style
+[3.440s] -- Configured uncrustify additional arguments: 
+[3.440s] -- Added test 'xmllint' to check XML markup files
+[3.440s] -- Configuring done (2.0s)
+[3.441s] -- Generating done (0.0s)
+[3.441s] -- Build files have been written to: /home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_timer
+[3.441s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[3.441s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[3.441s]   CMake.
+[3.441s] 
+[3.441s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[3.441s]   to tell CMake that the project requires at least <min> but has been updated
+[3.441s]   to work with policies introduced by <max> or earlier.
+[3.442s] 
+[3.442s] [0m
+[3.442s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[3.442s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.442s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.442s]   the cmake_policy command to set the policy and suppress this warning.
+[3.442s] 
+[3.442s] Call Stack (most recent call first):
+[3.442s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[3.443s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[3.443s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[3.444s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[3.444s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[3.444s]   CMakeLists.txt:13 (find_package)
+[3.444s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.444s] [0m
+[3.466s] Invoked command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/caros/DEV/ROS_DEV/ros2_dev/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer
+[3.467s] Invoking command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_timer -- -j48 -l48
+[3.473s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[3.474s] [ 50%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[10.170s] [ 75%] [32m[1mLinking CXX executable timer_lambda[0m
+[11.273s] [100%] [32m[1mLinking CXX executable timer_member_function[0m
+[11.958s] [100%] Built target timer_lambda
+[11.959s] [100%] Built target timer_member_function
+[12.000s] Invoked command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_timer -- -j48 -l48
+[12.006s] Invoking command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_timer
+[12.021s] -- Install configuration: ""
+[12.022s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[12.024s] -- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda" to ""
+[12.025s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[12.026s] -- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function" to ""
+[12.027s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[12.027s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[12.028s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[12.028s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[12.029s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[12.029s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[12.030s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[12.030s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[12.031s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[12.031s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[12.032s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[12.032s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[12.033s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[12.033s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[12.034s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[12.044s] Invoked command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_timer

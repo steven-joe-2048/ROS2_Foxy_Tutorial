@@ -1,0 +1,11 @@
+-I/home/caros/DEV/ROS_DEV/ros2_dev/src/ros_tutorials/turtlesim/include
+-I/opt/Qt5.15.2/5.15.2/gcc_64/include
+-I/opt/Qt5.15.2/5.15.2/gcc_64/include/QtWidgets
+-I/opt/Qt5.15.2/5.15.2/gcc_64/include/QtGui
+-I/opt/Qt5.15.2/5.15.2/gcc_64/include/QtCore
+-I/opt/Qt5.15.2/5.15.2/gcc_64/./mkspecs/linux-g++
+-I/usr/include
+-DROS_PACKAGE_NAME="turtlesim"
+-o
+/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/include/turtlesim/moc_turtle_frame.cpp
+/home/caros/DEV/ROS_DEV/ros2_dev/src/ros_tutorials/turtlesim/include/turtlesim/turtle_frame.h

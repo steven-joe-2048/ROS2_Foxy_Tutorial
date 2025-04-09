@@ -1,0 +1,16 @@
+/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml

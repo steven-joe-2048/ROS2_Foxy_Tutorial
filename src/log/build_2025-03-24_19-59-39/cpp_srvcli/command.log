@@ -1,0 +1,6 @@
+Invoking command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/caros/DEV/ROS_DEV/ros2_dev/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/caros/DEV/ROS_DEV/ros2_dev/src/install/cpp_srvcli
+Invoked command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/caros/DEV/ROS_DEV/ros2_dev/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/caros/DEV/ROS_DEV/ros2_dev/src/install/cpp_srvcli
+Invoking command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/caros/DEV/ROS_DEV/ros2_dev/src/build/cpp_srvcli -- -j48 -l48
+Invoked command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/caros/DEV/ROS_DEV/ros2_dev/src/build/cpp_srvcli -- -j48 -l48
+Invoking command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/caros/DEV/ROS_DEV/ros2_dev/src/build/cpp_srvcli
+Invoked command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/caros/DEV/ROS_DEV/ros2_dev/src/build/cpp_srvcli

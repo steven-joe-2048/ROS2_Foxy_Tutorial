@@ -1,0 +1,852 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libturtlesim__rosidl_typesupport_c.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"install",
+			"target_link_libraries",
+			"ament_target_dependencies",
+			"set_target_properties",
+			"find_package",
+			"add_dependencies",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/opt/ros/foxy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c_generate_interfaces.cmake",
+			"/opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake",
+			"/opt/ros/foxy/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cppExport.cmake",
+			"/opt/ros/foxy/share/action_msgs/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/foxy/share/action_msgs/cmake/action_msgsConfig.cmake",
+			"/opt/ros/foxy/share/rclcpp_action/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/foxy/share/rclcpp_action/cmake/rclcpp_actionConfig.cmake",
+			"/opt/ros/foxy/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cExport.cmake",
+			"/opt/ros/foxy/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cppExport.cmake",
+			"/opt/ros/foxy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cExport.cmake",
+			"/opt/ros/foxy/share/rosidl_typesupport_c/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/foxy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake",
+			"/opt/ros/foxy/share/rosidl_default_runtime/cmake/rosidl_default_runtime-extras.cmake",
+			"/opt/ros/foxy/share/rosidl_default_runtime/cmake/rosidl_default_runtimeConfig.cmake",
+			"/opt/ros/foxy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/foxy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake",
+			"/opt/ros/foxy/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/foxy/share/std_msgs/cmake/std_msgsConfig.cmake",
+			"/opt/ros/foxy/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/foxy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake",
+			"/opt/ros/foxy/share/rosidl_runtime_c/cmake/rosidl_runtime_cExport.cmake",
+			"/opt/ros/foxy/share/rosidl_runtime_c/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/foxy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake",
+			"/opt/ros/foxy/share/rcutils/cmake/rcutilsExport.cmake",
+			"/opt/ros/foxy/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/foxy/share/rcutils/cmake/rcutilsConfig.cmake",
+			"/opt/ros/foxy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/foxy/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/opt/ros/foxy/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 286,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 139,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 145,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 139,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 145,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 139,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 145,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"file" : 9,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 9,
+				"line" : 41,
+				"parent" : 14
+			},
+			{
+				"file" : 8,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 21,
+				"parent" : 16
+			},
+			{
+				"file" : 7,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 41,
+				"parent" : 18
+			},
+			{
+				"file" : 6,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 9,
+				"parent" : 20
+			},
+			{
+				"file" : 5,
+				"parent" : 21
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 56,
+				"parent" : 22
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 9,
+				"parent" : 20
+			},
+			{
+				"file" : 10,
+				"parent" : 24
+			},
+			{
+				"command" : 7,
+				"file" : 10,
+				"line" : 56,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 9,
+				"parent" : 20
+			},
+			{
+				"file" : 11,
+				"parent" : 27
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 56,
+				"parent" : 28
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 134,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 145,
+				"parent" : 30
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 22,
+				"parent" : 32
+			},
+			{
+				"command" : 1,
+				"file" : 22,
+				"line" : 41,
+				"parent" : 33
+			},
+			{
+				"file" : 21,
+				"parent" : 34
+			},
+			{
+				"command" : 8,
+				"file" : 21,
+				"line" : 21,
+				"parent" : 35
+			},
+			{
+				"file" : 20,
+				"parent" : 36
+			},
+			{
+				"command" : 1,
+				"file" : 20,
+				"line" : 41,
+				"parent" : 37
+			},
+			{
+				"file" : 19,
+				"parent" : 38
+			},
+			{
+				"command" : 8,
+				"file" : 19,
+				"line" : 21,
+				"parent" : 39
+			},
+			{
+				"file" : 18,
+				"parent" : 40
+			},
+			{
+				"command" : 1,
+				"file" : 18,
+				"line" : 41,
+				"parent" : 41
+			},
+			{
+				"file" : 17,
+				"parent" : 42
+			},
+			{
+				"command" : 8,
+				"file" : 17,
+				"line" : 21,
+				"parent" : 43
+			},
+			{
+				"file" : 16,
+				"parent" : 44
+			},
+			{
+				"command" : 1,
+				"file" : 16,
+				"line" : 41,
+				"parent" : 45
+			},
+			{
+				"file" : 15,
+				"parent" : 46
+			},
+			{
+				"command" : 8,
+				"file" : 15,
+				"line" : 12,
+				"parent" : 47
+			},
+			{
+				"file" : 14,
+				"parent" : 48
+			},
+			{
+				"command" : 1,
+				"file" : 14,
+				"line" : 41,
+				"parent" : 49
+			},
+			{
+				"file" : 13,
+				"parent" : 50
+			},
+			{
+				"command" : 1,
+				"file" : 13,
+				"line" : 9,
+				"parent" : 51
+			},
+			{
+				"file" : 12,
+				"parent" : 52
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 56,
+				"parent" : 53
+			},
+			{
+				"command" : 8,
+				"file" : 17,
+				"line" : 21,
+				"parent" : 43
+			},
+			{
+				"file" : 25,
+				"parent" : 55
+			},
+			{
+				"command" : 1,
+				"file" : 25,
+				"line" : 41,
+				"parent" : 56
+			},
+			{
+				"file" : 24,
+				"parent" : 57
+			},
+			{
+				"command" : 1,
+				"file" : 24,
+				"line" : 9,
+				"parent" : 58
+			},
+			{
+				"file" : 23,
+				"parent" : 59
+			},
+			{
+				"command" : 7,
+				"file" : 23,
+				"line" : 56,
+				"parent" : 60
+			},
+			{
+				"command" : 1,
+				"file" : 25,
+				"line" : 41,
+				"parent" : 56
+			},
+			{
+				"file" : 29,
+				"parent" : 62
+			},
+			{
+				"command" : 8,
+				"file" : 29,
+				"line" : 21,
+				"parent" : 63
+			},
+			{
+				"file" : 28,
+				"parent" : 64
+			},
+			{
+				"command" : 1,
+				"file" : 28,
+				"line" : 41,
+				"parent" : 65
+			},
+			{
+				"file" : 27,
+				"parent" : 66
+			},
+			{
+				"command" : 1,
+				"file" : 27,
+				"line" : 9,
+				"parent" : 67
+			},
+			{
+				"file" : 26,
+				"parent" : 68
+			},
+			{
+				"command" : 7,
+				"file" : 26,
+				"line" : 56,
+				"parent" : 69
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 151,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 32,
+				"parent" : 73
+			},
+			{
+				"command" : 8,
+				"file" : 32,
+				"line" : 15,
+				"parent" : 74
+			},
+			{
+				"file" : 31,
+				"parent" : 75
+			},
+			{
+				"command" : 1,
+				"file" : 31,
+				"line" : 41,
+				"parent" : 76
+			},
+			{
+				"file" : 30,
+				"parent" : 77
+			},
+			{
+				"command" : 10,
+				"file" : 30,
+				"line" : 25,
+				"parent" : 78
+			},
+			{
+				"command" : 11,
+				"file" : 3,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 4
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 141,
+				"parent" : 30
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu++14 -fPIC"
+				},
+				{
+					"backtrace" : 72,
+					"fragment" : "-Wall"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 31,
+					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
+				},
+				{
+					"backtrace" : 79,
+					"define" : "ROS_PACKAGE_NAME=\"turtlesim\""
+				},
+				{
+					"define" : "turtlesim__rosidl_typesupport_c_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 80,
+					"path" : "/home/caros/DEV/ROS_DEV/ros2_dev/src/ros_tutorials/turtlesim/include"
+				},
+				{
+					"backtrace" : 80,
+					"path" : "/opt/Qt5.15.2/5.15.2/gcc_64/include"
+				},
+				{
+					"backtrace" : 80,
+					"path" : "/opt/Qt5.15.2/5.15.2/gcc_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 80,
+					"path" : "/opt/Qt5.15.2/5.15.2/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 80,
+					"path" : "/opt/Qt5.15.2/5.15.2/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 80,
+					"path" : "/opt/Qt5.15.2/5.15.2/gcc_64/./mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 81,
+					"path" : "/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_generator_c"
+				},
+				{
+					"backtrace" : 81,
+					"path" : "/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_typesupport_c"
+				},
+				{
+					"backtrace" : 82,
+					"isSystem" : true,
+					"path" : "/opt/ros/foxy/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					83
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 71,
+			"id" : "turtlesim__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "turtlesim__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/caros/DEV/ROS_DEV/ros2_dev/src/install/turtlesim"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/ros/foxy/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/opt/ros/foxy/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 54,
+				"fragment" : "/opt/ros/foxy/lib/librcpputils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 61,
+				"fragment" : "/opt/ros/foxy/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 70,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "turtlesim__rosidl_typesupport_c",
+	"nameOnDisk" : "libturtlesim__rosidl_typesupport_c.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

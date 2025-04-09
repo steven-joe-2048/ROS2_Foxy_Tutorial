@@ -1,0 +1,111 @@
+[0.183s] Invoking command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/caros/DEV/ROS_DEV/ros2_dev/src/examples/rclcpp/actions/minimal_action_client -DCMAKE_INSTALL_PREFIX=/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client
+[3.211s] -- The C compiler identification is GNU 9.4.0
+[3.212s] -- The CXX compiler identification is GNU 9.4.0
+[3.212s] -- Detecting C compiler ABI info
+[3.212s] -- Detecting C compiler ABI info - done
+[3.212s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.213s] -- Detecting C compile features
+[3.213s] -- Detecting C compile features - done
+[3.213s] -- Detecting CXX compiler ABI info
+[3.213s] -- Detecting CXX compiler ABI info - done
+[3.213s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.214s] -- Detecting CXX compile features
+[3.214s] -- Detecting CXX compile features - done
+[3.214s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.214s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[3.214s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.215s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[3.215s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.215s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.215s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[3.215s] -- Found FastRTPS: /opt/ros/foxy/include
+[3.215s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.216s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.216s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.216s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.216s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.216s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.217s] -- Looking for pthread_create in pthreads
+[3.223s] -- Looking for pthread_create in pthreads - not found
+[3.225s] -- Looking for pthread_create in pthread
+[3.226s] -- Looking for pthread_create in pthread - found
+[3.226s] -- Found Threads: TRUE
+[3.227s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[3.227s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.229s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.229s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.234s] -- Configured cppcheck include dirs: 
+[3.235s] -- Configured cppcheck exclude dirs and/or files: 
+[3.236s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.236s] -- Configured cpplint exclude dirs and/or files: 
+[3.236s] -- Added test 'lint_cmake' to check CMake code style
+[3.236s] -- Added test 'uncrustify' to check C / C++ code style
+[3.237s] -- Configured uncrustify additional arguments: 
+[3.238s] -- Added test 'xmllint' to check XML markup files
+[3.248s] -- Configuring done (2.1s)
+[3.251s] -- Generating done (0.0s)
+[3.257s] -- Build files have been written to: /home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_action_client
+[3.259s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[3.259s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[3.259s]   CMake.
+[3.259s] 
+[3.259s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[3.259s]   to tell CMake that the project requires at least <min> but has been updated
+[3.259s]   to work with policies introduced by <max> or earlier.
+[3.259s] 
+[3.260s] [0m
+[3.260s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[3.265s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.268s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.269s]   the cmake_policy command to set the policy and suppress this warning.
+[3.270s] 
+[3.271s] Call Stack (most recent call first):
+[3.271s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[3.271s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[3.271s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[3.271s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[3.271s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[3.272s]   CMakeLists.txt:13 (find_package)
+[3.272s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.272s] [0m
+[3.501s] Invoked command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/caros/DEV/ROS_DEV/ros2_dev/src/examples/rclcpp/actions/minimal_action_client -DCMAKE_INSTALL_PREFIX=/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client
+[3.502s] Invoking command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_action_client -- -j48 -l48
+[3.515s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[3.516s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[3.516s] [ 37%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[3.516s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o[0m
+[12.008s] [ 62%] [32m[1mLinking CXX executable action_client_not_composable[0m
+[12.036s] [ 75%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[12.037s] [ 75%] Built target action_client_not_composable
+[12.040s] [ 87%] [32m[1mLinking CXX executable action_client_not_composable_with_feedback[0m
+[12.081s] [ 87%] Built target action_client_member_functions
+[12.180s] [ 87%] Built target action_client_not_composable_with_feedback
+[12.242s] [100%] [32m[1mLinking CXX executable action_client_not_composable_with_cancel[0m
+[12.608s] [100%] Built target action_client_not_composable_with_cancel
+[12.619s] Invoked command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_action_client -- -j48 -l48
+[12.631s] Invoking command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_action_client
+[12.637s] -- Install configuration: ""
+[12.638s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[12.640s] -- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions" to ""
+[12.640s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[12.642s] -- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable" to ""
+[12.642s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[12.644s] -- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel" to ""
+[12.644s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[12.646s] -- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback" to ""
+[12.646s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[12.647s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[12.647s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[12.647s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[12.648s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[12.648s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[12.648s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[12.648s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[12.649s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[12.649s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[12.649s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[12.649s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[12.649s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[12.650s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[12.650s] -- Installing: /home/caros/DEV/ROS_DEV/ros2_dev/src/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[12.660s] Invoked command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/caros/DEV/ROS_DEV/ros2_dev/src/build/examples_rclcpp_minimal_action_client
