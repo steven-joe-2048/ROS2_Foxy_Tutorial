@@ -1,6 +1,0 @@
-Invoking command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/caros/DEV/ROS_DEV/ros2_dev/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/caros/DEV/ROS_DEV/ros2_dev/src/install/turtlesim
-Invoked command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/caros/DEV/ROS_DEV/ros2_dev/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/caros/DEV/ROS_DEV/ros2_dev/src/install/turtlesim
-Invoking command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim -- -j48 -l48
-Invoked command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim -- -j48 -l48
-Invoking command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim
-Invoked command in '/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim
