@@ -1,8 +1,0 @@
-/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
-/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
-/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
-/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
-/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
-/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
-/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
-/home/caros/DEV/ROS_DEV/ros2_dev/src/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl
