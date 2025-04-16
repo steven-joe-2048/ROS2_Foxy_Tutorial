@@ -78,7 +78,6 @@ source install/setup.bash
 ros2 topic echo /address_book
 
 
-
 #####6 Using parameters in a class (C++)
 cd ros2_ws/src
 # The --dependencies argument will automatically add the necessary dependency lines to package.xml and CMakeLists.txt.
@@ -90,9 +89,6 @@ ros2 param set /minimal_param_node my_parameter earth
 # [INFO] [1742873068.319643272] [minimal_param_node]: Hello world!
 # [INFO] [1742873069.319657326] [minimal_param_node]: Hello earth!
 # [INFO] [1742873070.319654562] [minimal_param_node]: Hello world!
-
-
-
 
 #####7 create a action
 ros2 pkg create action_tutorials_interfaces
@@ -112,3 +108,6 @@ cd ros2_ws/src
 ros2 pkg create --dependencies action_tutorials_interfaces rclcpp rclcpp_action rclcpp_components -- action_tutorials_cpp
 ros2 run action_tutorials_cpp fibonacci_action_server
 ros2 run action_tutorials_cpp fibonacci_action_client --ros-args -p order:=20
+
+# 9 create a action server and client (Python)
+cd ros2_ws/src
