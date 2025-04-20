@@ -19,7 +19,7 @@ class FibonacciActionServer(Node):
 
     def execute_callback(self, goal_handle):
         self.get_logger().info('Executing goal...')
-        # add
+        # added
         feedback_msg = Fibonacci.Feedback()
         feedback_msg.partial_sequence = [0, 1]
         for i in range(1, goal_handle.request.order):
@@ -30,6 +30,9 @@ class FibonacciActionServer(Node):
             time.sleep(1)
         
         result = Fibonacci.Result()
+        # added
+        result.sequence = feedback_msg.partial_sequence
+
         return result
 
 
